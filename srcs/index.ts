@@ -1,4 +1,4 @@
-/// <reference path="./node_modules/gojs/release/go.d.ts" />
+/// <reference path="../node_modules/gojs/release/go.d.ts" />
 
   /***************************/
  /*		Global Scope		*/
