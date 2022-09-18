@@ -1,0 +1,86 @@
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	background-color: #F8F0E3; 
+}
+
+#input {
+	width: 100%;
+	display: none;
+}
+
+#button {
+	position: fixed;
+	z-index: 2;
+	width: fit-content;
+	height: fit-content;
+	margin: 10px;
+	padding: 5px 26px;
+	background-color: #e4e3f8;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Permanent Marker', cursive;
+	border: 5px ridge rgb(51, 51, 51);
+}
+
+.flex-container {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-container #diagram {
+	flex: 1;
+}
+
+#visualiser {
+	flex: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #e3f6f8;
+	transition: flex 1s ease-out;
+}
+
+#visualiser h1 {
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+#visualiser .text {
+	margin: 30px 0px 15px 0px;
+}
+
+#visualiser .image {
+	position: relative;
+	margin: 15px 0px 15px 0px;
+}
+
+#visualiser pre {
+	margin: auto;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	overflow: auto;
+	width: 80%;
+	color: rgb(74, 89, 117);
+	font-family: Georgia;
+	font-size: larger;
+	text-align: justify;
+	white-space: pre-wrap;
+	word-break: keep-all;
+}
+
+#visualiser img {
+	margin: auto;
+	padding-bottom: 60px;
+	width: 70%;
+}
