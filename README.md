@@ -1,4 +1,4 @@
-# Kaleidoscript
+# Kaleidoscript-vanillaJS (unmaintained)
 
 A simple tool for graphs and digital exposés.
 
